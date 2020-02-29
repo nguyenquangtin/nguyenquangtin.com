@@ -13,7 +13,7 @@ class Bio extends React.Component {
       >
         <img
           src={profilePic}
-          alt={`Tony Nguyen`}
+          alt={`Tony Tin Nguyen`}
           style={{
             marginRight: rhythm(1 / 2),
             marginBottom: 0,
@@ -24,8 +24,10 @@ class Bio extends React.Component {
         />
         <p style={{ maxWidth: 400 }}>
           Personal blog by{' '}
-          <a href="https://mobile.twitter.com/nguyenquangtin">Tony Nguyen</a>.{' '}
-          <br />A blog about tech, productivity and curiousity.
+          <a href="https://mobile.twitter.com/nguyenquangtin">
+            Tony Tin Nguyen
+          </a>
+          . <br />A blog about tech, productivity and curiousity.
         </p>
       </div>
     );
