@@ -1,11 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: 'Overreacted',
-    author: 'Dan Abramov',
-    description: 'Personal blog by Dan Abramov. I explain with words and code.',
-    siteUrl: 'https://overreacted.io',
+    title: 'Tony Blog',
+    author: 'Tony Nguyen',
+    description:
+      'Personal blog by Tony Nguyen. A blog about tech, productivity and curiousity.',
+    siteUrl: 'https://nguyenquangtin.com',
     social: {
-      twitter: '@dan_abramov',
+      twitter: '@nguyenquangtin',
     },
   },
   pathPrefix: '/',
@@ -112,8 +113,8 @@ module.exports = {
                     node {
                       excerpt(pruneLength: 250)
                       html
-                      fields { 
-                        slug   
+                      fields {
+                        slug
                       }
                       frontmatter {
                         title
@@ -126,7 +127,7 @@ module.exports = {
               }
             `,
             output: '/rss.xml',
-            title: "Dan Abramov's Overreacted Blog RSS Feed",
+            title: "Tony Nguyen's Blog RSS Feed",
           },
         ],
       },
