@@ -198,8 +198,8 @@ exports.onCreateNode = ({ node, actions }) => {
       match = linkRe.exec(markdown);
     }
     createNodeField({
-      node,
       name: 'maybeAbsoluteLinks',
+      node,
       value: _.uniq(maybeAbsoluteLinks),
     });
   }
